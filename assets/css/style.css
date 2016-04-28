@@ -252,11 +252,10 @@ body {
 
 .play_container{
 	position: relative;
-	display: ;
+	display: none;
 	transition: 0.9s;
 	width: 550px;
 	height: 75%;
-	border: 3px solid black;	
 	margin: auto;
 }
 
@@ -271,7 +270,7 @@ body {
 	position: relative;
 	color:#b3d8e0;
 	font-weight: 700;
-	top: 170px;
+	top: 100px;
 }
 
 .b_cost{
@@ -323,9 +322,40 @@ body {
 	font-size: 100px;
 }
 
+#details{
+	position: relative;
+	background: transparent;
+	color: #b3d8e0;
+	top: 110px;
+	width: 90%;
+	font-size: 60px;
+	text-align: center;
+	height: 120px;
+	border: none;
+}
 
+::-webkit-input-placeholder {
+   color: #b3d8e0;
+   opacity: .5;
+}
 
+:-moz-placeholder { 
+   color: #b3d8e0;  
+   opacity: .5;
 
+}
+
+::-moz-placeholder {  
+   color: #b3d8e0;
+   opacity: .5;
+  
+}
+
+:-ms-input-placeholder {  
+   color: #b3d8e0; 
+   opacity: .5;
+ 
+}
 
 
 

@@ -37,6 +37,7 @@ $(document).ready(function(){
 		$(".sc_right").addClass("sc_new_right");
 		$(".sc_left").addClass("sc_old_left");
 		$(".home").addClass("home_right");
+		$(".play_container").css("display", "block");
 
 	});
 
@@ -57,6 +58,8 @@ $(document).ready(function(){
 			$(".sc_left").removeClass("sc_old_left");
 			$(".sc_right").removeClass("sc_new_right");
 			$(".home").removeClass("home_right");
+			$(".play_container").css("display", "none");
+
 		}
 	});
 	
