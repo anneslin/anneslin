@@ -148,10 +148,14 @@ body {
 	cursor: pointer;
 }
 
-.work_container1{
+.work_container{
 	position: relative;
 	display: none;
 	transition: 0.9s;
+	width: 450px;
+	height: 75%;
+	margin: auto;
+
 }
 
 #from{
@@ -179,17 +183,17 @@ body {
 }
 
 #from_hr{
-	left: 33%;
+	left: 5%;
 	color: #b3d8e0;
 	font-size: 100px;
 }
 #from_min1{
-	left: 45%;
+	left: 33%;
 	color: #b3d8e0;
 	font-size: 100px;
 }
 #from_min2{
-	left: 55%;
+	left: 56%;
 	color: #b3d8e0;
 	font-size: 100px;
 }
@@ -198,14 +202,14 @@ body {
 	font-size: 45px;
 	position: relative;
 	top: 93px;
-	right: 2%;
+	right:11%;
 }
 
 #from_time{
 	font-size: 50px;
 	position: relative;
 	top: 100px;
-	left: 20%;
+	left: 35%;
 }
 
 .w_time2{
@@ -217,17 +221,17 @@ body {
 
 }
 #to_hr{
-	left: 33%;
+	left: 5%;
 	color: #b3d8e0;
 	font-size: 100px;
 }
 #to_min1{
-	left: 45%;
+	left: 33%;
 	color: #b3d8e0;
 	font-size: 100px;
 }
 #to_min2{
-	left: 55%;
+	left: 56%;
 	color: #b3d8e0;
 	font-size: 100px;
 }
@@ -236,12 +240,92 @@ body {
 	font-size: 45px;
 	position: relative;
 	top: 213px;
-	right: 2%;
+	right: 11%;
 }
 
 #to_time{
 	font-size: 50px;
 	position: relative;
 	top: 225px;
-	left: 20%;
+	left: 35%;
 }
+
+.play_container{
+	position: relative;
+	display: ;
+	transition: 0.9s;
+	width: 550px;
+	height: 75%;
+	border: 3px solid black;	
+	margin: auto;
+}
+
+#spent{
+	position: relative;
+	color:#b3d8e0;
+	font-weight: 700;
+	top: 50px;
+}
+
+#on{
+	position: relative;
+	color:#b3d8e0;
+	font-weight: 700;
+	top: 170px;
+}
+
+.b_cost{
+	width: 100px;
+	height: 125px;
+	position: absolute;
+	background: #b3d8e0;
+	top: 75px;
+
+}
+
+#dolla_sign{
+	position: relative;
+	color:#b3d8e0;
+	font-weight: 700;
+	font-size: 100px;
+	right: 225px;
+	top: 55px;
+}
+#dot{
+	position: relative;
+	color:#b3d8e0;
+	font-weight: 700;
+	font-size: 100px;
+	right: 7.5px;
+	top: 70px;
+}
+#dollar1{
+	left: 16%;
+	color: #fff;
+	font-size: 100px;
+}
+
+#dollar2{
+	left: 35%;
+	color: #fff;
+	font-size: 100px;
+}
+
+#cents1{
+	left: 58%;
+	color: #fff;
+	font-size: 100px;
+}
+
+#cents2{
+	left: 77%;
+	color: #fff;
+	font-size: 100px;
+}
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$(".sc_right").addClass("sc_old_right");
 		$(".sc_left").addClass("sc_new_left");
 		$(".home").addClass("home_left");
-		$(".work_container1").css("display", "block");
+		$(".work_container").css("display", "block");
 
 
 	});
@@ -27,7 +27,7 @@ $(document).ready(function(){
 			$(".sc_right").removeClass("sc_old_right");
 			$(".sc_left").removeClass("sc_new_left");
 			$(".home").removeClass("home_left");
-			$(".work_container1").css("display", "none");
+			$(".work_container").css("display", "none");
 
 		}
 	});
